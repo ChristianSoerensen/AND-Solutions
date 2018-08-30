@@ -5,46 +5,46 @@
     android:background="#ffdd00">
 
     <ImageView
+        android:id="@+id/blue"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="#0c70e9"
         android:layout_alignParentEnd="true"
-        android:id="@+id/blue"/>
+        android:background="#0c70e9" />
 
     <ImageView
+        android:id="@+id/red1"
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:background="#d62a08"
+        android:layout_alignParentEnd="true"
         android:layout_below="@id/blue"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_alignParentEnd="true"
-        android:id="@+id/red1"/>
+        android:layout_marginTop="10dp"
+        android:background="#d62a08" />
 
     <ImageView
+        android:id="@+id/red2"
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:background="#d62a08"
-        android:id="@+id/red2"
         android:layout_alignParentEnd="true"
+        android:layout_below="@id/red1"
         android:layout_marginEnd="30dp"
         android:layout_marginTop="10dp"
-        android:layout_below="@id/red1"/>
+        android:background="#d62a08" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="#34c91e"
+        android:layout_alignStart="@id/red2"
         android:layout_below="@id/red1"
         android:layout_marginStart="-80dp"
-        android:layout_alignStart="@id/red2"/>
+        android:background="#34c91e" />
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:background="#e1880c"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:background="#e1880c" />
 
 </RelativeLayout>

@@ -2,22 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="bottom">
+    android:gravity="bottom"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="TextView"/>
+        android:text="TextView" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#CC0000"/>
+        android:background="#CC0000" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Button"/>
+        android:text="Button" />
 
 </LinearLayout>
