@@ -2,27 +2,40 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kaspe.courseintroduction">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Exercise1">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Exercise1" />
         <activity android:name=".Exercise2_2" />
         <activity android:name=".Exercise2_3to4" />
         <activity android:name=".Exercise2_5" />
         <activity android:name=".Exercise2_6" />
         <activity android:name=".Exercise2_7" />
         <activity android:name=".Exercise2_8" />
+        <activity android:name=".Exercise3_3a"/>
+        <activity android:name=".Exercise3_3b" />
+        <activity android:name=".Exercise3_6">
+        </activity>
+        <activity android:name=".Exercise3_7">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
