@@ -32,6 +32,10 @@ public class Exercise3_6 extends AppCompatActivity {
         intent.putExtra(Intent.EXTRA_EMAIL, new String[]{edit_to.getText().toString()});
         intent.putExtra(Intent.EXTRA_SUBJECT, edit_subject.getText().toString());
         intent.putExtra(Intent.EXTRA_TEXT, edit_body.getText().toString());
-        startActivity(intent);
+
+        if(intent.resolveActivity(getPackageManager()) != null){
+            startActivity(intent);
+        }
+
     }
 }

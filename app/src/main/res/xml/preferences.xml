@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Some Category!" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkboxKey"
+        android:summary="This box does something!"
+        android:text="Some Checkbox!" />
+
+    <ListPreference
+        android:key="listKey"
+        android:title="A list!"
+        android:defaultValue="0"
+        android:entries="@array/entries"
+        android:entryValues="@array/entryValues"/>
+
+</PreferenceScreen>
