@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.support.annotation.Nullable;
 
-public class Exercise9c extends PreferenceFragment {
+public class Exercise4_9c extends PreferenceFragment {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {

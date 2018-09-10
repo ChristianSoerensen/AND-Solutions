@@ -8,20 +8,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class Exercise9a extends AppCompatActivity {
+public class Exercise4_9a extends AppCompatActivity {
 
     TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.exercise9a);
+        setContentView(R.layout.exercise4_9a);
         textView = findViewById(R.id.textView);
         PreferenceManager.setDefaultValues(this,R.xml.preferences,false);
     }
 
     public void accessSettings(View v){
-        Intent intent = new Intent(this,Exercise9b.class);
+        Intent intent = new Intent(this,Exercise4_9b.class);
         startActivity(intent);
     }
 

@@ -36,14 +36,14 @@
         <activity android:name=".Exercise4_3to5">
 
         </activity>
-        <activity android:name=".Exercise9a" >
+        <activity android:name=".Exercise4_9a" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Exercise9b"></activity>
+        <activity android:name=".Exercise4_9b"></activity>
     </application>
 
 </manifest>
